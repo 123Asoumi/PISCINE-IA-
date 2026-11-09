@@ -1,0 +1,2 @@
+# Les poids (*.pt) ne vont PAS dans Git (voir .gitignore).
+# Ce fichier garde juste le dossier models/ dans le repo.

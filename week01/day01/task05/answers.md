@@ -26,78 +26,16 @@ Cat detector :
 
 Voici les étapes :
 
-Étape 1 : On fournit des données
-
-On donne 1 000 images à notre modèle :
-- 500 images de chats.
-- 500 images de chiens.
-Étape 2 : Le modèle fait des prédictions
-
-Il analyse une image et prédit :
-
-« Je pense que c'est un chien. »
-
-Étape 3 : On mesure son erreur
-
-On compare sa prédiction avec la bonne réponse.
-
+-On fournit des données
+Ex: On donne 1 000 images à notre modèle avec 500 images de chats et 500 images de chiens.
+-Le modèle fait des prédictions Il analyse une image et prédit si il voie un chien ou un chat.
+-Il fois qu'il fais la prédiction on relève ses erreurs on compare donc  sa prédiction avec la bonne réponse.
 Par exemple :
 - Réponse attendue : Chat.
 - Prédiction : Chien.
 - Résultat : Erreur.
-Étape 4 : On corrige le modèle
-
-Grâce à des méthodes mathématiques comme la rétropropagation (Backpropagation), le modèle ajuste ses paramètres pour réduire son erreur.
-
-Étape 5 : On recommence
-
+-On corrige les erreur modèle 
+-puis on  recommence lecture de donné, prédictions, mesure des erreures, corrections des erreur  et on recommence
 Le modèle répète ce processus sur de nombreux exemples.
-
 Petit à petit, il devient meilleur pour reconnaître les chats.
-Le cycle d'apprentissage
-1. Recevoir des données
-2. Faire une prédiction
-3. Calculer l'erreur (Loss)
-4. Ajuster les paramètres (Backpropagation + Optimizer)
-5. Recommencer
-
 À retenir : une IA ne devient pas intelligente par magie. Elle ajuste ses paramètres grâce aux exemples et aux erreurs.      
-
-Voici les étapes :
-
-Étape 1 : On fournit des données
-
-On donne 1 000 images à notre modèle :
-- 500 images de chats.
-- 500 images de chiens.
-Étape 2 : Le modèle fait des prédictions
-
-Il analyse une image et prédit :
-
-« Je pense que c'est un chien. »
-
-Étape 3 : On mesure son erreur
-
-On compare sa prédiction avec la bonne réponse.
-
-Par exemple :
-- Réponse attendue : Chat.
-- Prédiction : Chien.
-- Résultat : Erreur.
-Étape 4 : On corrige le modèle
-
-Grâce à des méthodes mathématiques comme la rétropropagation (Backpropagation), le modèle ajuste ses paramètres pour réduire son erreur.
-
-Étape 5 : On recommence
-
-Le modèle répète ce processus sur de nombreux exemples.
-
-Petit à petit, il devient meilleur pour reconnaître les chats.
-Le cycle d'apprentissage
-1. Recevoir des données
-2. Faire une prédiction
-3. Calculer l'erreur (Loss)
-4. Ajuster les paramètres (Backpropagation + Optimizer)
-5. Recommencer
-
-À retenir : une IA ne devient pas intelligente par magie. Elle ajuste ses paramètres grâce aux exemples et aux erreurs.

@@ -9,7 +9,6 @@ Mémo personnel des notions et commandes vues pendant le Day 01.
 Un `import` = ouvrir une boîte à outils fournie avec Python.
 
 | Import | Boîte | Outil utilisé | Rôle |
-|---|---|---|---|
 | `import sys` | `sys` | — | infos sur l'interpréteur Python |
 | `import platform` | `platform` | `platform.python_version()` | version de Python (ex. `3.10.12`) |
 | | | `platform.system()` | nom de l'OS (ex. `Linux`) |

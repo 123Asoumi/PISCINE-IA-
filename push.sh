@@ -20,7 +20,7 @@
 # Astuce : pour afficher du texte en bash on utilise  echo "..."
 
 if [ $# -eq 0 ]; then
-   echo "Usage: ./push.sh "commit message""
+   echo 'Usage: ./push.sh "commit message"'
    exit 1
 fi
    git add -A

@@ -1,0 +1,7 @@
+torch
+torchvision
+matplotlib
+scikit-learn
+numpy
+pillow
+# gradio   # décommente pour la Task 21 (bonus)
